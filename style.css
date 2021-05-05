@@ -1,0 +1,39 @@
+#home img{
+    width: 300px;
+    border-radius: 75%;
+    margin-top: 100px;
+    border-width:2px;
+    border-style: solid;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+#home{
+    background: linear-gradient(lightblue 30%,red 70%);
+    height: 800px;
+    z-index: 9; 
+    
+   
+}
+.menu{
+   background: darkblue; 
+   color: white;
+    z-index: 10;
+    margin-top: 0;
+    top: 0;
+    cursor: pointer;
+    width: 100%
+}
+.mitem{
+    display:inline;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.mitem:hover{
+    font-size: 25px;
+    background-color: cyan;
+}
